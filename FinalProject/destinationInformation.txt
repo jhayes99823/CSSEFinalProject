@@ -1,0 +1,47 @@
+Name; Address; Rating; Description; Type; x; y; img
+House 1; 1 Acre Drive; 4.9; Residential Home with 1 acre, a 3 car garage, and a pool, and a short 6 minute walk to the park; House; 7; 10; house1.jpg
+House 5; 78 Pine Street; 2.4; Residential Home with 2.5 acres, a tool shed, and 4 car garage; House; 4; 8; house5.jpg
+House 3; 337 Binary Tree Drive; 3.2; Residential Home with 1.7 acres, a tool shed, and 2 car garage; House; 6; 3; house3.jpg
+House 2; 232 AVL Tree Lane; 3.9; Residential Home with 1.9 acres, and a 2 car garage; House; 7; 6; house2.jpg
+Park; 1 Playground Road; 4.7; Has a playground, swings, sand pit, and, merry-go-round; Nature and Parks; 10; 8; park.jpg
+Pet Shop; 567 Pet Shop Lane; 3.1; Pet Shop with dogs, cats, snakes, guinea pigs, turtle, and more; Store; 6; 13; petshop.jpg
+Animal Hospital; 823 Pet Shop Lane; 3.8; Veterinarian for all your pets medical needs; Hospital; 8; 14; animal-hospital.jpg
+Rose-Hulman; 5500 Wabash Ave; 1.9; School for nerds; Institution; 11; 4; rose_hulman.jpg
+Dominos; Pizza Street Lane; 4.7; One of the best places to get pizza; Restaurant; 12; 8; dominos.jpg
+Chang's Chinese Restaurant; 4 Harvey St; 3.4; Best place for beef and broccoli and orange chicken; Restaurant; 12; 11; changs-chinese.jpg
+Opera; 42 Paris Hill Ave; 4.7; Best place to get cultured with music; Entertainment; 10; 11; opera.jpg
+Movie Theatre; Array Ave; 4.2; Watch all your favorite new movies here for an expanding price; Entertainment; 11; 13; theatre.jpg
+Microbrewery; Heuretic Lane; 4.5; People under 21 stay, otherwise come for good beer and a good time; Restaurant; 12; 13; microbreweryjpg
+House 4; Skippy List Lane; 3.2; Residential Home with 2.1 acres, a pool, a 3 car garage, and a short drive to Rose-Hulman; House; 13; 3; house4.jpg
+Taj Mahal; 1349 South 3rd St; 4.1; Indian restaurant with passable indian food; Restaurant; 15; 5; taj-mahal.jpg
+Heidelberg Restaurant; 1648 2nd Ave; 4.9; German restaurant with the nation's best sausage platters and amazing homemade apple strudels; Restaurant; 17; 6; heidelberg.jpg
+World's of Fun Amusement Park; World's of Fun Lane; 4.6; You and your kids will be there all day riding rides like the Patriot, the Mamba, and the Prowler and after a while cool off at Ocean's of Fun right next door; Entertainment; 17; 9; worlds-of-fun.jpg
+Mills-Peninsula Medical Center; Red Black Tree Ave; 4.4; Best hospital with the best nurses and doctors of their specialty; Hospital; 17; 12; mills-peninsula.jpg
+Children's Mercy Hospital; Mergesort Circle; 4.9; Best children's hospital with the best pediatric nurses and doctors; Hospital; 15; 12; childrens_mercy.jpg
+St. Lukes Clinic; Priority Heap Drive; 3.9; Clinic for quick access to your doctor; Hospital; 19; 14; st_lukes.jpg
+Petcare Animal Hospital; Stack Queue Lane; 3.4; Animal hospital to fix any and all of your pets; Hospital; 15; 14; vet.jpg
+Connections:
+House 1, House 2, 3, 10
+House 1, House 5, 8, 10
+House 1, Park, 6, 12
+House 5, House 3, 5, 15
+House 2, Park, 2, 5
+Park, Pet Shop, 14, 11
+Pet Shop, Animal Hospital, 0.5, 1
+Park, Rose-Hulman, 10, 29
+Park, Dominos, 22, 42
+Rose-Hulman, Dominos, 12, 19
+Rose-Hulman, House 4, 15, 20
+Rose-Hulman, World's of Fun Amusement Park, 37, 53
+Dominos, Chang's Chinese Restaurant, 8, 12
+Chang's Chinese Restaurant, Opera, 25, 57
+Chang's Chinese Restaurant, Microbrewery, 4, 9
+Microbrewery, Movie Theatre, 5, 10
+Movie Theatre, Opera, 3, 5
+House 4, Taj Mahal, 13, 15
+House 4, Heidelberg Restaurant, 6, 15
+Heidelberg Restaurant, World's of Fun Amusement Park, 7, 31
+World's of Fun Amusement Park, Mills-Peninsula Medical Center, 17, 20
+Mills-Peninsula Medical Center, Children's Mercy Hospital, 2, 1
+Children's Mercy Hospital, Petcare Animal Hospital, 3, 13
+Mills-Peninsula Medical Center, St. Lukes Clinic, 4, 5
